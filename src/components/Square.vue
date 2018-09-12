@@ -1,5 +1,7 @@
 <template>
-  <div class="square">square</div>
+  <div class="square">
+    <input type="text">
+  </div>
 </template>
 <script>
 
@@ -10,9 +12,14 @@
   position: relative;
   left: 0vw;
   top: 0vh;
-  width: 100vw;
-  height: 100vw;
+  width: 20vw;
+  height: 20vw;
+  background: white;
   transform: rotate(0deg);
   transition: transform 20s;
+}
+
+.square input {
+  border: none;
 }
 </style>

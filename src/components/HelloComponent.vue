@@ -1,5 +1,7 @@
 <template>
-  <Square/>
+  <div class="container">
+    <Square/>
+  </div>
 </template>
 
 <script>
@@ -17,3 +19,17 @@ export default {
 }
 
 </script>
+
+<style lang="stylus" scoped>
+.container {
+  position: relative;
+  left: 0vw;
+  top: 0vh;
+  width: 100vw;
+  height: 100vw;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
